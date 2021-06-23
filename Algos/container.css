@@ -1,0 +1,19 @@
+.container {
+    width: auto;
+    background-color: silver;
+    padding:20px;
+    display: flex; /* This flex changes the layout - only applied to the direct children (not deepr into hierarchy)*/
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.col {
+    height: 400px;
+    width: 250px;
+    background-color: blue;
+    flex: 5;
+}
+
+    /*display: inline-block;*/
+    /*margin-right: 70px;*/
+    /*vertical-align: top;*/
